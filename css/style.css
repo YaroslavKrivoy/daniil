@@ -1,0 +1,15 @@
+@import 'font.css';
+@import 'slick.css';
+@import 'slick-theme.css';
+@import 'header/header.css';
+@import 'slider/slider.css';
+@import 'service/service.css';
+@import 'project/project.css';
+@import 'detail/detail.css';
+@import 'blog/blog.css';
+@import 'advantage/advantage.css';
+@import 'team/team.css';
+@import 'partner/partner.css';
+@import 'feedback/feedback.css';
+@import 'footer/footer.css';
+@import 'media.css';

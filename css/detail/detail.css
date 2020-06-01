@@ -1,0 +1,41 @@
+.detail {
+    border: 1px solid rgba(101, 103, 104, 0.12);
+    background-color: #fcfcfc;
+    padding-top: 47px;
+    padding-bottom: 40px;
+}
+
+.detail__title {
+    color: #23323a;
+    font-family: "Open Sans";
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 68px;
+    letter-spacing: -2px;
+}
+
+.detail__title-blue {
+    color: #008fd5;
+}
+
+.detail__button {
+    width: 200px;
+    height: 61px;
+    background-color: #008fd5;
+    border: none;
+    margin-left: 82px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.detail__button::before {
+    content: url('../../img/info.png');
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}

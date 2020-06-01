@@ -1,0 +1,121 @@
+.feedback {
+    background: #495b69;
+    padding-top: 43px;
+    padding-bottom: 50px;
+}
+
+.feedback__title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.feedback__form {
+    margin-top: 46px;
+}
+
+.feedback__name,
+.feedback__email,
+.feedback__textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    background-color: #c1c7cb;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.feedback__name,
+.feedback__email {
+    height: 45px;
+}
+
+.feedback__name::placeholder,
+.feedback__email::placeholder,
+.feedback__textarea::placeholder {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.feedback__textarea {
+    height: 95px;
+    resize: none;
+}
+
+.feedback__button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.feedback__reset {
+    margin-left: 10px;
+}
+
+.feedback__submit,
+.feedback__reset {
+    width: 119px;
+    height: 45px;
+    border: 1px solid rgba(238, 238, 238, 0.24);
+    background-color: #647480;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.feedback__submit:hover,
+.feedback__reset:hover {
+    background: #008fd5;
+}
+
+.feedback__formName,
+.feedback__formEmail,
+.feedback__formReset {
+    position: relative;
+}
+
+.feedback__formName::before,
+.feedback__formEmail::before {
+    position: absolute;
+    color: #008fd5;
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    top: 10px;
+    left: 96%;
+}
+
+.feedback__formName::before {
+    content: '\f007';
+}
+
+.feedback__formEmail::before {
+    content: '\f0e0';
+}
+
+.feedback__formReset::before {
+    position: absolute;
+    content: '\f057';
+    color: #fcfcfc;
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 600;
+    top: 16px;
+    left: 71%;
+}

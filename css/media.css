@@ -1,0 +1,115 @@
+@media all and (max-width: 1200px) {
+	.search__input{
+		left: -115px;
+	}
+
+	.slider__padding{
+		padding-right: 60px;
+	}
+
+	.detail__button{
+		display: block;
+		margin: 0;
+	}
+
+	.report{
+		margin-left: 36px;
+	}
+
+	.report::before{
+		font-size: 22px;
+		left: -32px;
+	}
+
+	.client__info::before{
+		left: 87px;
+	}
+
+	.accordeon__name{
+		
+		font-size: 11px;
+	}
+
+	.contact{
+		padding-left: 85px;
+	}
+
+	.testimonials{
+		margin-left: 0;
+	}
+	.center{
+		padding-left: 0;
+	}
+
+	.partner__margin{
+		margin-left: -35px;
+	}
+
+	.footer__description{
+		width: 100%;
+	}
+
+	.subscription__input{
+		width: 100%;
+	}
+}
+
+
+@media all and (max-width: 990px) {
+	.search{
+		padding-left: 0;
+	}
+
+	.contact{
+		padding-left: 20px;
+	}
+
+	.search__input{
+		left: -302px;
+	}
+
+	.service__item{
+		padding-top: 30px;
+	}
+
+	.detail__title{
+		text-align: center;
+	}
+
+	.detail__button{
+		display: block;
+		margin:  auto;
+	}
+
+	.accordeon,.testimonials{
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.center{
+		padding-left: 15px;
+	}
+
+	.partner__margin{
+		margin-left: -15px;
+	}
+
+	.advantage__list{
+		margin-top: 40px;
+		margin-left: 0;
+	}
+
+	.footer__tweet{
+		margin-left: 3px;
+	}
+
+	.accordeon__content{
+		width: 272px;
+	}
+	
+	.slider__title {
+		font-size: 60px;
+		text-align: center;
+	}
+}
+

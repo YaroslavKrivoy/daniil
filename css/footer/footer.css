@@ -1,0 +1,265 @@
+.footer__twitter {
+    background: url('../../img/footer/bg__twitter.png');
+    width: 138px;
+    height: 120px;
+    position: relative;
+}
+
+.footer__twitter::before {
+    content: url('../../img/footer/twitter.png');
+    position: absolute;
+    left: 21%;
+    top: 41px;
+}
+
+.footer__top {
+    background: #008fd5;
+}
+
+.footer__tweet {
+    width: 100%;
+    height: 34px;
+    margin-top: 43px;
+    color: #ebebeb;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+.footer__tweet-italic,
+.footer__tweet-small {
+    color: #bbdbef;
+    font-style: italic;
+    line-height: 18px;
+}
+
+.footer__tweet-italic:hover {
+    text-decoration: none;
+}
+
+.footer__tweet-small {
+    font-size: 12px;
+}
+
+.footer__slider {
+    width: 80%;
+    padding-right: 30px;
+    margin-left: 27px;
+}
+
+.footer__navLeft,
+.footer__navRight {
+    position: absolute;
+    top: 55px;
+    color: #bbdbef;
+    cursor: pointer;
+}
+
+.footer__navLeft {
+    left: 97%;
+}
+
+.footer__navRight {
+    left: 99%;
+}
+
+.footer__middle {
+    background: #19242a;
+    padding-top: 19px;
+    padding-bottom: 48px;
+}
+
+.footer__logoTitle {
+    margin-bottom: 0;
+    margin-left: 22px;
+    padding-top: 15px;
+    color: #547e93;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer__description {
+    margin-top: 27px;
+    width: 249px;
+    height: 72px;
+    color: #7ca1b3;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+}
+
+.footer__title {
+    color: #7ca1b3;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 13px;
+}
+
+.footer__postList,
+.footer__postItem,
+.footer__contactList,
+.footer__contactItem {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #7ca1b3;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+
+.footer__postList,
+.footer__contactList {
+    margin-top: 42px;
+}
+
+.footer__postItem {
+    width: 90%;
+    height: 70px;
+}
+
+.footer__contactItem {
+    padding-left: 31px;
+    position: relative;
+}
+
+.footer__contactItem::before {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.location::before {
+    content: url('../../img/footer/Location.png');
+}
+
+.phone::before {
+    content: url('../../img/footer/Mobile.png');
+}
+
+.mail::before {
+    content: url('../../img/footer/Mail.png');
+}
+
+.footer__contactItem:nth-child(2),
+.footer__contactItem:nth-child(3) {
+    margin-top: 23px;
+}
+
+.footer__postItem:nth-child(2) {
+    margin-top: 38px;
+}
+
+.footer__postDate {
+    padding-right: 5px;
+    border-right: 1px solid #7ca1b3;
+    text-transform: uppercase;
+}
+
+.footer__postAutor {
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.footer__postText-white {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-size: 13px;
+    color: #bdd2dc;
+}
+
+.subscription__content {
+    width: 98%;
+    color: #7ca1b3;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 36px;
+}
+
+.subscription__input {
+    position: relative;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.subscription__email {
+    width: 100%;
+    height: 39px;
+    background-color: #23323a;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 35px;
+    color: #7ca1b3;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.subscription__check {
+    position: absolute;
+    color: #7ca1b3;
+    left: 87%;
+    top: 14px;
+    font-size: 13px;
+}
+
+.footer__marginTop {
+    margin-top: 26px;
+}
+
+.subscription__contact,
+.subscription__item {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.subscription__item a {
+    color: #93a6b0;
+    font-size: 16px;
+}
+
+.subscription__item a:hover {
+    text-decoration: none;
+    color: #008fd5;
+}
+
+.subscription__item {
+    margin-left: 15px;
+}
+
+.subscription__item:nth-child(1) {
+    margin-left: 0;
+}
+
+.subscription__contact {
+    margin-top: 14px;
+}
+
+.footer__bottom {
+    background: #141d22;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.copyright {
+    margin: 0;
+    color: #547e93;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 42.03px;
+    text-transform: uppercase;
+}

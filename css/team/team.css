@@ -1,0 +1,90 @@
+.team {
+    padding-top: 45px;
+    padding-bottom: 64px;
+    margin-top: 1px;
+    background: #353f4b;
+}
+
+.team__title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+}
+
+.team__photo {
+    padding-top: 51px;
+}
+
+.team__photo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.team__info {
+    margin: 25px auto 0 auto;
+    width: 84px;
+    height: 30px;
+    color: #f5f5f5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+
+.team__info-blue {
+    color: #2691ac;
+    font-family: "Open Sans - Extrabold";
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.contactTeam,
+.contactTeam__item {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.contactTeam {
+    width: 208px;
+    display: block;
+    margin: 45px auto 0 auto;
+}
+
+.contactTeam__item {
+    margin-left: 15px;
+}
+
+.contactTeam__item:nth-child(1) {
+    margin-left: 0;
+}
+
+.contactTeam__item a {
+    color: #93a6b0;
+    font-size: 16px;
+}
+
+.contactTeam__item a:hover {
+    text-decoration: none;
+    color: #008fd5;
+}
+
+.team__description {
+    margin-top: 17px;
+    text-align: center;
+    height: 53px;
+    color: #ccd2da;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.team__description-dark {
+    color: #b9c3ca;
+}

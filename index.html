@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="logo d-flex justify-content-left">
+                            <img src="img/logo.png" alt="Marine" class="logo__img" title="Marine">
+                            <p class="logo__title">marine</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-7 ml-auto">
+                        <ul class="contact d-flex">
+                            <li class="contact__item">
+                                <span>Call Us: +1 800 450 17 04</span>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-vimeo-v"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-8">
+                        <nav>
+                            <ul class="menu d-flex">
+                                <li class="menu__item">
+                                    <p>Home</p>
+                                </li>
+                                <li class="menu__item">
+                                    <p>Blog</p>
+                                </li>
+                                <li class="menu__item">
+                                    <p>Gallery</p>
+                                </li>
+                                <li class="menu__item">
+                                    <p>Pages</p>
+                                </li>
+                                <li class="menu__item">
+                                    <p>Contacts</p>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 col-md-1 ml-auto">
+                        <div class="search">
+                            <i class="fas fa-search" onclick="ShowSearch()"></i>
+                            <form class="search__input" id="search__input" style="display:none">
+                                <input type="search" placeholder="Search ..." name="val">
+                                <button name="search"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="container-fluid  slider__padding">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider__container">
+                        <div class="slider__item" style="width=388px">
+                            <img src="img/ship.png" alt="ship" title="Natural power">
+                            <p class="slider__title">Natural power </p>
+                            <p class="slider__description">Vivamus orci sem, consectetur ut vestibulum.</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/ship.png" alt="ship" title="Natural power">
+                            <p class="slider__title">Natural power </p>
+                            <p class="slider__description">Vivamus orci sem, consectetur ut vestibulum.</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/ship.png" alt="ship" title="Natural power">
+                            <p class="slider__title">Natural power </p>
+                            <p class="slider__description">Vivamus orci sem, consectetur ut vestibulum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service d-flex">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="service__item">
+                        <div class="service__img"><img src="img/cog.png" alt="cog" title="Developer"></div>
+                        <p class="service__title">Web development</p>
+                        <p class="service__description">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="service__item">
+                        <div class="service__img"><img src="img/lineChart.png" alt="lineChart" title="Monitoring"></div>
+                        <p class="service__title">SEO Monitoring</p>
+                        <p class="service__description">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="service__item">
+                        <div class="service__img"><img src="img/community.png" alt="community" title="Communities"></div>
+                        <p class="service__title">Network Communities</p>
+                        <p class="service__description">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="service__item">
+                        <div class="service__img"><img src="img/pieChart.png" alt="pieChart" title="Analytics"></div>
+                        <p class="service__title">Web analytics</p>
+                        <p class="service__description">IT WAS HARD TO MAKE IT SO COOL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project">
+        <div class="container-fluid project__padding">
+            <div class="row project__margin">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <h2 class="project__recent">Recent Projects </h2>
+                    <p class="project__summary">Morbi a libero eget erat auctor cursus vitae id tortor. Suspendisse rhoncus. Vestibulum eu ligula lorem.
+                        Vivamus orci sem, consectetur ut vestibulum a, semper ac dui. </p>
+                </div>
+            </div>
+            <div class="row project__margin">
+                <div class="col-lg-12 project__padding">
+                    <div class="multiSlider">
+                        <div class="multiSlider__container">
+                            <div class="multiSlider__item">
+                                <div class="multiSlider__img slideOne">
+                                    <img src="img/default_photo_slide.png" alt="default_photo_slide" title="default">
+                                    <div class="multislider__tool  toolOne">
+                                        <div class="multiSlider__share"></div>
+                                        <div class="multiSlider__zoom"></div>
+                                    </div>
+                                </div>
+                                <p class="multiSlider__title">Project Title</p>
+                                <p class="multiSlider__ordinem">Graphic design</p>
+                                <p class="multiSlider__like"><i class="far fa-heart"></i>1</p>
+                            </div>
+                            <div class="multiSlider__item">
+                                <div class="multiSlider__img slideTwo">
+                                    <img src="img/default_photo_slide.png" alt="default_photo_slide" title="default">
+                                    <div class="multislider__tool  toolTwo">
+                                        <div class="multiSlider__share"></div>
+                                        <div class="multiSlider__zoom"></div>
+                                    </div>
+                                </div>
+                                <p class="multiSlider__title">Project Title</p>
+                                <p class="multiSlider__ordinem">Graphic design</p>
+                                <p class="multiSlider__like"><i class="far fa-heart"></i>2</p>
+                            </div>
+                            <div class="multiSlider__item">
+                                <div class="multiSlider__img slideThree">
+                                    <img src="img/default_photo_slide.png" alt="default_photo_slide" title="default">
+                                    <div class="multislider__tool  toolThree">
+                                        <div class="multiSlider__share"></div>
+                                        <div class="multiSlider__zoom"></div>
+                                    </div>
+                                </div>
+                                <p class="multiSlider__title">Project Title</p>
+                                <p class="multiSlider__ordinem">Graphic design</p>
+                                <p class="multiSlider__like"><i class="far fa-heart"></i>3</p>
+                            </div>
+                            <div class="multiSlider__item">
+                                <div class="multiSlider__img slideFour">
+                                    <img src="img/default_photo_slide.png" alt="default_photo_slide" title="default">
+                                    <div class="multislider__tool  toolFour">
+                                        <div class="multiSlider__share"></div>
+                                        <div class="multiSlider__zoom"></div>
+                                    </div>
+                                </div>
+                                <p class="multiSlider__title">Project Title</p>
+                                <p class="multiSlider__ordinem">Graphic design</p>
+                                <p class="multiSlider__like"><i class="far fa-heart"></i>4</p>
+                            </div>
+                            <div class="multiSlider__item">
+                                <div class="multiSlider__img slideFive">
+                                    <img src="img/default_photo_slide.png" alt="default_photo_slide" title="default">
+                                    <div class="multislider__tool  toolFive">
+                                        <div class="multiSlider__share"></div>
+                                        <div class="multiSlider__zoom"></div>
+                                    </div>
+                                </div>
+                                <p class="multiSlider__title">Project Title</p>
+                                <p class="multiSlider__ordinem">Graphic design</p>
+                                <p class="multiSlider__like"><i class="far fa-heart"></i>5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <p class="detail__title">
+                        <span class="detail__title-blue">A fully responsive theme</span>
+                        with clean design for your success!
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <button class="detail__button">check details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="post">
+                        <h3 class="post__title">Recent Posts</h3>
+                        <ul class="post__list">
+                            <li class="post__item d-flex">
+                                <div class="post__date">
+                                    <p class="post__date-blue">15</p>
+                                    <p class="post__date-small  cameraImage">oct, 2013</p>
+                                </div>
+                                <div class="post__img">
+                                    <img src="img/default.png" alt="post_image" title="post_default_image">
+                                </div>
+                                <div class="post__content">
+                                    <ul class="post__menu d-flex">
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemOne">By Admin</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemTwo">Web, News</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemThree">5 comments</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-blue">read more</a>
+                                        </li>
+                                    </ul>
+                                    <p class="post__name">Vivamus orci sem, conse tur per ac dui oin vulputate.</p>
+                                    <p class="post__description">Proin vulputate aliquam mi nec hendrerit. Sed entum velit vel ipsum.</p>
+                                </div>
+                            </li>
+                            <li class="post__item d-flex">
+                                <div class="post__date">
+                                    <p class="post__date-blue">25</p>
+                                    <p class="post__date-small  videoImage">oct, 2013</p>
+                                </div>
+                                <div class="post__img">
+                                    <img src="img/default.png" alt="post_image" title="post_default_image">
+                                </div>
+                                <div class="post__content">
+                                    <ul class="post__menu d-flex">
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemOne">By Admin</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemTwo">Web, News</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-black elemThree">5 comments</a>
+                                        </li>
+                                        <li class="post__menuItem">
+                                            <a href="#" class="post__menuItem-blue">read more</a>
+                                        </li>
+                                    </ul>
+                                    <p class="post__name">Orci sem, conse tur per ac dui oin tate.</p>
+                                    <p class="post__description">Proin vulputate aliquam mi nec hendrerit. Sed entum velit vel ipsum. Ut sem lacus, ttitor et aliqua.
+                                        eget, iaculis id lacus. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="accordeon">
+                        <h3 class="accordeon__title">Accordeon</h3>
+                        <ul class="accordeon__list">
+                            <li class="accordeon__item">
+                                <div class="accordeon__itemHeader d-flex">
+                                    <div class="accordeon__flag"><i class="fas fa-minus" id="one" onclick="Show(this.id)"></i></div>
+                                    <p class="accordeon__name">Vivamus orci sem sectetur.</p>
+                                </div>
+                                <div class="accordeon__content" id="show-one" style="display:block">
+                                    <div class="accordeon__text">
+                                        Sed entum velit vel ipsum bibendum em lacus, itor et aliquam eget, iaculis id lacus. Praesent tudin.
+                                        <br><br>
+                                        Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordeon__item">
+                                <div class="accordeon__itemHeader d-flex">
+                                    <div class="accordeon__flag"><i class="fas fa-plus" id="two" onclick="Show(this.id)"></i></div>
+                                    <p class="accordeon__name">Sed entum velit vel ipsum. </p>
+                                </div>
+                                <div class="accordeon__content" id="show-two" style="display:none">
+                                    <div class="accordeon__text">
+                                        Sed entum velit vel ipsum bibendum em lacus, itor et aliquam eget, iaculis id lacus. Praesent tudin.
+                                        <br><br>
+                                        Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordeon__item">
+                                <div class="accordeon__itemHeader d-flex">
+                                    <div class="accordeon__flag"><i class="fas fa-plus" id="three" onclick="Show(this.id)"></i></div>
+                                    <p class="accordeon__name">Porttitor et aliquam eget.</p>
+                                </div>
+                                <div class="accordeon__content" id="show-three" style="display:none">
+                                    <div class="accordeon__text">
+                                        Sed entum velit vel ipsum bibendum em lacus, itor et aliquam eget, iaculis id lacus. Praesent tudin.
+                                        <br><br>
+                                        Aiquam eget, iaculis id lacus. Praesent tudin. Ut sem lacus, ttitor putate uam mi nec hendrerit.
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="testimonials">
+                        <h3 class="testimonials__title">What People Say</h3>
+                        <div class="client d-flex">
+                            <div class="client__img">
+                                <img src="img/default_mini.png" alt="default_mini" title="client_default_image">
+                            </div>
+                            <div class="client__info">
+                                <p class="client__name">Sarah Doe</p>
+                                <p class="client__company">Ceo, Company.com</p>
+                            </div>
+                        </div>
+                        <div class="report">
+                            <p class="report__name">Vivamus orci sem, consectetur ut vestibulum a, semper ac dui.</p>
+                            <p class="report__text">Proin vulputate aliquam mi nec rerit. Sed entum velit vel ipsum bibendum tristique. Ut sem lacus, ttitor putate liquam mi nec hendrerit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-xl-6">
+                    <div class="advantage__img">
+                        <div class="advantage__imgBack">
+                            <img src="img/adv_small.png" alt="advantage_small" title="default_back">
+                        </div>
+                        <div class="advantage__imgFront">
+                            <img src="img/adv_big.png" alt="advantage_big" title="default_front">
+                        </div>
+                        <div class="advantage__keyboard">
+                            <img src="img/keyboard_&_mouse_1.png" alt="keyboard_&_mouse" title="keyboard">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-6">
+                    <ul class="advantage__list">
+                        <li class="advantage__item flexible">
+                            <p class="advantage__name">Flexible Solutions</p>
+                            <p class="advantage__text">Lorem ipsum dolor sit amet, <span class="advantage__text-bold">tetur piscing</span> elit. Suspendisse smod congue bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                        </li>
+                        <li class="advantage__item target">
+                            <p class="advantage__name">Target Approach</p>
+                            <p class="advantage__text">Lorem ipsum dolor sit amet, <span class="advantage__text-bold">tetur piscing</span> elit. Suspendisse smod congue bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                        </li>
+                        <li class="advantage__item global">
+                            <p class="advantage__name">Global Development</p>
+                            <p class="advantage__text">Lorem ipsum dolor sit amet, <span class="advantage__text-bold">tetur piscing</span> elit. Suspendisse smod congue bibendum. Aliquam erat volutpat. Phasellus eget justo lacus. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 ml-auto mr-auto">
+                    <h2 class="team__title">Our team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="team__photo">
+                        <img src="img/team_photo.png" alt="avatar" title="photo_default_team">
+                    </div>
+                    <p class="team__info">Sarah Doe<span class="team__info-blue"> CEO</span></p>
+                    <p class="team__description">Proin vulputate aliquam mi nec rerit. <br><span class="team__description-dark">Sed entum velit vel ipsum bibendum tristique.</span> </p>
+                    <ul class="contactTeam d-flex">
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-vimeo-v"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team__photo">
+                        <img src="img/team_photo.png" alt="avatar" title="photo_default_team">
+                    </div>
+                    <p class="team__info">Sarah Doe<span class="team__info-blue"> CEO</span></p>
+                    <p class="team__description">Proin vulputate aliquam mi nec rerit. <br><span class="team__description-dark">Sed entum velit vel ipsum bibendum tristique.</span> </p>
+                    <ul class="contactTeam d-flex">
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-vimeo-v"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team__photo">
+                        <img src="img/team_photo.png" alt="avatar" title="photo_default_team">
+                    </div>
+                    <p class="team__info">Sarah Doe<span class="team__info-blue"> CEO</span></p>
+                    <p class="team__description">Proin vulputate aliquam mi nec rerit. <br><span class="team__description-dark">Sed entum velit vel ipsum bibendum tristique.</span> </p>
+                    <ul class="contactTeam d-flex">
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-vimeo-v"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team__photo">
+                        <img src="img/team_photo.png" alt="avatar" title="photo_default_team">
+                    </div>
+                    <p class="team__info">Sarah Doe<span class="team__info-blue"> CEO</span></p>
+                    <p class="team__description">Proin vulputate aliquam mi nec rerit. <br><span class="team__description-dark">Sed entum velit vel ipsum bibendum tristique.</span> </p>
+                    <ul class="contactTeam d-flex">
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-vimeo-v"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="contactTeam__item">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partner">
+        <div class="container">
+            <div class="row partner__margin">
+                <div class="col-lg-2 center">
+                    <a href="https://www.netcredit.com/">
+                        <img src="img/partner/netCredit.png" alt="netCredit" title="NetCredit">
+                    </a>
+                </div>
+                <div class="col-lg-3 center">
+                    <a href="#">
+                        <img src="img/partner/paroo.png" alt="paroo" title="Paroo">
+                    </a>
+                </div>
+                <div class="col-lg-2 center">
+                    <a href="#">
+                        <img src="img/partner/foxter.png" alt="foxter" title="Foxter">
+                    </a>
+                </div>
+                <div class="col-lg-3 center">
+                    <a href="#">
+                        <img src="img/partner/queen_counsel.png" alt="queenCounsel" title="Queen`s Counsel">
+                    </a>
+                </div>
+                <div class="col-lg-2 center">
+                    <a href="#">
+                        <img src="img/partner/kamcord.png" alt="kamcord" title="Kamcord">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 ml-auto mr-auto">
+                    <h2 class="feedback__title">Get In Touch!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 ml-auto mr-auto">
+                    <form class="feedback__form">
+                        <div class="feedback__formName">
+                            <input type="text" class="feedback__name" name="name" required placeholder="Name*">
+                        </div>
+                        <div class="feedback__formEmail">
+                            <input type="email" class="feedback__email" name="email" required placeholder="E-mail*">
+                        </div>
+                        <textarea name="report" id="feedback__text" class="feedback__textarea" placeholder="Message"></textarea>
+                        <div class="feedback__button d-flex justify-content-center">
+                            <div class="feedback__formSubmit"><input type="submit" class="feedback__submit" name="feedback__submit" value="send message"></div>
+                            <div class="feedback__formReset"><input type="reset" class="feedback__reset" name="feedback__reset" value="clear"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex">
+                        <div class="footer__twitter"></div>
+                        <div class="footer__slider">
+                            <div class="footer__slide">
+                                <p class="footer__tweet">
+                                    <span class="footer__tweet-italic">@circles </span>
+                                    Because we know you don’t want to be in both portrait AND landscape! We care about limited format
+                                    <a href="#" class="footer__tweet-italic">... by Quill</a>
+                                    <span class="footer__tweet-small"> about 5 minutes ago</span>
+                                </p>
+                            </div>
+                            <div class="footer__slide d-flex">
+                                <p class="footer__tweet">
+                                    <span class="footer__tweet-italic">@circles </span>
+                                    Because we know you don’t want to be in both portrait AND landscape! We care about limited format
+                                    <a href="#" class="footer__tweet-italic">... by Quill</a>
+                                    <span class="footer__tweet-small"> about 5 minutes ago</span>
+                                </p>
+                            </div>
+                            <div class="footer__slide d-flex">
+                                <p class="footer__tweet">
+                                    <span class="footer__tweet-italic">@circles </span>
+                                    Because we know you don’t want to be in both portrait AND landscape! We care about limited format
+                                    <a href="#" class="footer__tweet-italic">... by Quill</a>
+                                    <span class="footer__tweet-small"> about 5 minutes ago</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer__logo d-flex justify-content-left">
+                            <img src="img/logo.png" alt="Marine" class="footer__logoImg">
+                            <p class="footer__logoTitle">marine</p>
+                        </div>
+                        <p class="footer__description">
+                            Vivamus orci sem, consectetur ut vestibulum a,
+                            mper ac dui. Aenean tellus nisl, commodo eu aliquet
+                            ut, pulvinar ut sapien. Proin tate aliquam mi nec hendrerit.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer__post">
+                            <h3 class="footer__title">Recent Posts</h3>
+                            <ul class="footer__postList">
+                                <li class="footer__postItem">
+                                    <span class="footer__postDate">dec 15, 2012</span>
+                                    <span class="footer__postAutor">By admin</span>
+                                    <p class="footer__postText">
+                                        <span class="footer__postText-white">Morbi a libero eget erat auctor.</span><br>
+                                        Sus vitae id tortor suspendisse stibulum eu igula lorem ivamus orci sem, ectetur.
+                                    </p>
+                                </li>
+                                <li class="footer__postItem">
+                                    <span class="footer__postDate">dec 15, 2012</span>
+                                    <span class="footer__postAutor">By admin</span>
+                                    <p class="footer__postText">
+                                        <span class="footer__postText-white">Morbi a libero eget erat auctor.</span><br>
+                                        Sus vitae id tortor suspendisse stibulum eu igula lorem ivamus orci sem, ectetur.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer__contact">
+                            <h3 class="footer__title">Contacts</h3>
+                            <ul class="footer__contactList">
+                                <li class="footer__contactItem location">
+                                    <p class="footer__contactInfo">
+                                        Phoenix Inc. <br>
+                                        PO Box 21177 <br>
+                                        Little Lonsdale St, Melbourne <br>
+                                        Victoria 8011 Australia
+                                    </p>
+                                </li>
+                                <li class="footer__contactItem phone">
+                                    <p class="footer__contactInfo">
+                                        Phone: (415) 124-5678 <br>
+                                        Fax: (415) 124-5678
+                                    </p>
+                                </li>
+                                <li class="footer__contactItem mail">
+                                    <p class="footer__contactInfo">
+                                        support@yourname.com
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="subscription">
+                            <h3 class="footer__title">Newsletter Signup</h3>
+                            <p class="subscription__content">
+                                By subscribing to our mailing list you will get the latest news from us.
+                            </p>
+                            <div class="subscription__input">
+                                <input type="email" class="subscription__email" id="subscription__email" name="subscriptionEmail">
+                                <i class="fas fa-check subscription__check" id="email"></i>
+                            </div>
+                            <h3 class="footer__title footer__marginTop">Follow us</h3>
+                            <ul class="subscription__contact d-flex">
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-skype"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-vimeo-v"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li class="subscription__item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 mr-auto">
+                        <p class="copyright">
+                            © 2013 Marine. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/jcarousle.min.js"></script>
+    <script src="js/show.js"></script>
+</body>
+
+</html>
